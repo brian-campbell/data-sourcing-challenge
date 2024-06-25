@@ -57,23 +57,24 @@ Alternatively it can be executed from within and IDE if the IDE is configured to
 ### Part 2: Access The Movie Database API (40 points)
 | Requirement | My Results | Required Results |
 | ----------- | ---------- | ---------------- |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+| An empty list called `tmdb_movies_list` is created | | |
+| A variable called `request_counter` is created and assigned the value of `1` | | |
+| A `for` loop is created to loop through the `titles` list | | |
+| `request_counter` is incremented by `1` | | |
+| `time.sleep(1)` when `request_counter` reaches a multiple of `50` | | |
+| A `GET` request that sends the title to The Movie Database search is performed, and the JSON results are retrieved | | |
+| A `try-except` clause is used | | |
+| The `except` clause prints out a statement if a movie is not found | | |
+| The movie ID is collected from the first result and saved as a variable | | |
+| A `GET` request is made using the movie query URL and movie ID to retrieve the full movie details in JSON format | | |
+| The genre names are extracted from the results into a list called `genres` | | |
+| The `spoken_languages`' English names are extracted from the results into a list called `spoken_languages` | | |
+| The `production_countries`' names are extracted from the results into a list called `production_countries` | | |
+| A dictionary is created with the specified 15 fields | | |
+| The results dictionary is appended to the `tmdb_movies_list` list | | |
+| A message is printed with the name of the movie to indicate that the title was found. | | |
+| The first five results are previewed using `json.dumps` with the argument `indent=4` | | |
+| The results are converted to a DataFrame called `tmdb_df` with `pd.DataFrame()` | | |
 
 
 ### Part 3: Merge and Clean the Data for Export (25 points)
