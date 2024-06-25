@@ -33,18 +33,18 @@ Assuming a python interpreter is installed and is at least version 3.10 or great
 Alternatively it can be executed from within and IDE if the IDE is configured to run python code and is at least 3.10 compatible and a jupyter notebook runtime is installed.
 
 ## Requirements and Solution
-###
+### Part 1: Access the New York Times API (35 points)
 | Requirement | My Results | Required Results |
 | ----------- | ---------- | ---------------- |
 | | | |
 
-###
+### Part 2: Access The Movie Database API (40 points)
 | Requirement | My Results | Required Results |
 | ----------- | ---------- | ---------------- |
 | | | |
 
 
-###
+### Part 3: Merge and Clean the Data for Export (25 points)
 | Requirement | My Results | Required Results |
 | ----------- | ---------- | ---------------- |
 | | | |
