@@ -58,6 +58,22 @@ Alternatively it can be executed from within and IDE if the IDE is configured to
 | Requirement | My Results | Required Results |
 | ----------- | ---------- | ---------------- |
 | | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
 
 
 ### Part 3: Merge and Clean the Data for Export (25 points)
