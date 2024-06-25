@@ -80,4 +80,15 @@ Alternatively it can be executed from within and IDE if the IDE is configured to
 ### Part 3: Merge and Clean the Data for Export (25 points)
 | Requirement | My Results | Required Results |
 | ----------- | ---------- | ---------------- |
-| | | |
+| The New York Times reviews and TMDB DataFrames are merged on the title column | | |
+| A list called `columns_to_fix` is created to store the names of the `genres`, `spoken_languages`, and `production_countries` columns | | |
+| A list is created called `characters_to_remove` containing `[`, `]`, and `'` | | |
+| A `for` loop is created to loop through `columns_to_fix` | | |
+| The columns to fix are converted to the string data type | | |
+| `characters_to_remove` is looped through to remove the characters from the string using the Pandas `str.replace()` method | | |
+| The head of the updated DataFrame is displayed to confirm the list characters were removed | | |
+| The `byline.person` column is dropped | | |
+| Duplicate rows are deleted | | |
+| The DataFrame index is reset | | |
+| The DataFrame is exported to a CSV file without the index | | |
+
